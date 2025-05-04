@@ -46,7 +46,7 @@ if __name__ == "__main__":
     # 워크플로우 생성
     app = workflow.compile()
 
-    result = app.invoke({"question": "What's BTS?", "documents": []})
+    result = app.invoke({"question": "What's Self-RAG?", "documents": []})
     
     # 최종 답변만 출력
     print("\n=== 최종 답변 ===")
